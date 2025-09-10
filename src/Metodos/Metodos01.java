@@ -1,9 +1,9 @@
-package Relenbrando_metodos;
+package Metodos;
 
 import java.util.Random;
 
 //Hello world com metodos
-public class Metodos_pt1 {
+public class Metodos01 {
     public void helloWorld(){
         System.out.println("Hello world");
     }
@@ -30,10 +30,10 @@ public class Metodos_pt1 {
     }
     //Execuçao do metodos
     public static void main(String[] args) {
-        Metodos_pt1 metodosPt1 = new Metodos_pt1();
+        Metodos01 metodosPt1 = new Metodos01();
         metodosPt1.helloWorld();
         metodosPt1.soma(1000, 200);
         metodosPt1.soma(4300, 450, 1000);
-        Metodos_pt1.randomNumero();
+        Metodos01.randomNumero();
     }
 }

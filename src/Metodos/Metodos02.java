@@ -1,6 +1,6 @@
-package Relenbrando_metodos;
+package Metodos;
 
-public class Metodos_pt2 {
+public class Metodos02 {
     public String nome;
     //Método de instância
     public void recebendoNome(String nome){
@@ -25,7 +25,7 @@ public class Metodos_pt2 {
     }
     //Fazendo os teste de metodos
     public static void main(String[] args) {
-        Metodos_pt2 metodosPt2 = new Metodos_pt2();
+        Metodos02 metodosPt2 = new Metodos02();
         metodosPt2.recebendoNome("matheus");
         int[] numeros = {100,200,300,400,500};
         metodosPt2.metodosComArray(numeros);
